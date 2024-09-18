@@ -85,7 +85,7 @@ module ::DiscourseFcmNotifications
           },
           'apns': {
             headers:{
-              "apns-priority":"5"
+              "apns-priority":"10"
             },
             payload: {
               aps: {
